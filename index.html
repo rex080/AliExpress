@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AliExpress</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <section>
+                    <img src="Alloy.webp">
+                    <h3>Ali<span>Logix</span></h3>
+                </section>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li>
+                        <a href="#">Shipping <i class="fa-solid fa-caret-down"></i></a>
+                        <div class="dropdown__menu">
+                            <ul>
+                                <li><a href="#">Create Shipping</a></li>
+                                <li><a href="#">Schedule & Manage Pickup</a></li>
+                                <li><a href="#">All Shipping Services</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#partner">Partnership</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#">Sign up or Login in</a></li>
+                </ul>              
+              <button class="menu-toggle" onclick="toggleMenu()">
+                  <i class="fas fa-bars"></i>
+               </button>
+            </nav>  
+        </header>
+        <main>
+            <section class="home"id="home">
+                <div class="container">
+                    <h1>Track Your Package</h1>
+                    <div class="tracking-form">
+                        <input type="text" id="trackingInput" placeholder="Tracking ID" />
+                        <button onclick="trackPackage()">Track</button>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="about-container">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h2>About AliLogix</h2>
+                            <p>
+                                At <strong>AliLogix</strong>, we redefine logistics by combining cutting-edge technology with
+                                exceptional customer service.
+                                From local deliveries to international shipping, our mission is to connect businesses and
+                                individuals to every corner of the world—reliably and efficiently.
+                            </p>
+                            <p>
+                                With years of expertise in the logistics industry, we strive to deliver not just packages, but peace
+                                of mind.
+                            </p>
+            
+                            <div class="mission-vision">
+                                <h3>Our Mission</h3>
+                                <p>
+                                    To revolutionize global logistics through smart, sustainable, and scalable solutions that
+                                    empower businesses and delight customers.
+                                </p>
+            
+                                <h3>Our Vision</h3>
+                                <p>
+                                    To be the world’s most trusted logistics partner by leveraging innovation, speed, and integrity
+                                    in every delivery.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-image">
+                            <img src="apac_en_2024_03_master_web_heavy_shipment_mkt.jpg"
+                                alt="Logistics in action">
+                        </div>
+                    </div>
+                </div>
+            </section>          
+            <section class="card_section">
+                <div class="card">
+                    <h3>Fast Delivery</h3>
+                    <p>
+                        Get your packages delivered in no time with our fast and reliable logistics service.
+                        From same-day to next-day delivery options.</p>
+                </div>
+                <div class="card">
+                    <h3>100% Safe Delivery</h3>
+                    <p>
+                        Your packages are in safe hands. We ensure every shipment is protected, tracked, and delivered securely to your
+                        doorstep without damage or loss.</p>
+                </div>
+                <div class="card">
+                     <h3>Shipping Method</h3>
+                       <p>
+                        Choose the delivery method that best suits your needs. We offer reliable and flexible options for every type of
+                        shipment.
+                    </p>
+                </div>
+            </section>
+            <section class="partnership-section"id="partner">
+                <h2>Partner with AliLogix</h2>
+                <p>AliLogix is building the future of smart delivery and logistics. Join our partnership program to innovate and
+                    grow together.</p>
+            
+                <div class="partnership-benefits">
+                    <div class="benefit-card">
+                        <img src="z1.webp" alt="Logistics Companies">
+                        <h4>Logistics Companies</h4>
+                        <p>Integrate your delivery services with our smart systems to increase speed, efficiency, and customer
+                            satisfaction.</p>
+                    </div>
+            
+                    <div class="benefit-card">
+                        <img src="GettyImages-1313131428.png" alt="E-commerce Platforms">
+                        <h4>E-commerce Platforms</h4>
+                        <p>Enhance customer trust with real-time tracking, secure delivery, and seamless order fulfillment.</p>
+                    </div>
+            
+                    <div class="benefit-card">
+                        <img src="tech-startups-should-prepare-now-for-the-next-ipo-boom-rectangle.jpg" alt="Tech Startups">
+                        <h4>Tech Startups</h4>
+                        <p>Work with AliLogix to bring your innovations to life in the logistics ecosystem and reach new markets.
+                        </p>
+                    </div>
+            
+                    <div class="benefit-card">
+                        <img src="17455630746479418162_1200x630.jpg" alt="Government & NGOs">
+                        <h4>Government & NGOs</h4>
+                        <p>Partner with us to strengthen public delivery systems and reach underserved areas with critical supplies.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="partner-footer">
+                    Together, we’re creating a smarter, faster, and more connected world.
+                </div>
+            </section>
+            <section class="service-section"Id="service">
+                <div class="container">
+                    <h2>Our Services</h2>
+                    <p>Reliable tracking solutions to keep your shipments on time and on target.</p>
+                    <div class="services-list">
+                        <div class="service-item">
+                            <h3>Real-Time Tracking</h3>
+                            <p>Get instant updates on your shipments anytime, anywhere.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>Detailed Reports</h3>
+                            <p>Comprehensive tracking history and analytics.</p>
+                        </div>
+                        <div class="service-item">
+                            <h3>Multi-Carrier Support</h3>
+                            <p>Track packages from multiple couriers all in one place.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact-section"id="contact">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <ul class="contact-info">
+                        <li><strong>Email:</strong> support@trackingcode.com</li>
+                        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                        <li><strong>Location:</strong> 123 Tracking St, Tech City, USA</li>
+                    </ul>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container footer-container">
+                    <div class="footer-left">
+                        <h3>TrackingCode</h3>
+                        <p>© 2025 TrackingCode Inc. All rights reserved.</p>
+                    </div>
+                </div>             
+            </footer>          
+        </main>
+        <script src="Script.js"> </script>
+        
+    </body>
+</html>
